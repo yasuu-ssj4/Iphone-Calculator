@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <style name="calcBtnOrange">
+            <item name="android:layout_marginLeft">20dp</item>
+            <item name="android:layout_height">80dp</item>
+            <item name="android:layout_width">80dp</item>
+            <item name="android:textSize">48dp</item>
+            <item name="android:layout_gravity">center</item>
+
+            <item name="android:gravity">center</item>
+            <item name="android:textColor">@color/white</item>
+            <item name="android:fontFamily">"@font/sffont"</item>
+            <item name="android:layout_marginTop">10dp</item>
+            <item name="android:background">@drawable/circle</item>
+             </style>
+    <style name="calcBtnWhite">
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_gravity">center</item>
+
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textSize">40dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">"@font/sffont"</item>
+        <item name="android:background">@drawable/whitecircle</item>
+    </style>
+    <style name="calcBtnGrey">
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textSize">42dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_gravity">center</item>
+
+        <item name="android:fontFamily">"@font/sffont"</item>
+        <item name="android:background">@drawable/darkgreycircle</item>
+    </style>
+    <style name="calcLngBtnGrey">
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textSize">3dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">"@font/sffont"</item>
+        <item name="android:layout_width">170dp</item>
+        <item name="android:background">@drawable/darkgreycircle</item>
+    </style>
+    <style name="calculLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">110dp</item>
+        <item name="android:orientation">horizontal</item>
+
+    </style>
+</resources>
